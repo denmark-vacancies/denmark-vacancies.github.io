@@ -293,8 +293,16 @@ html {
     color:white;
     text-decoration: none;
 }
+/*Video*/
 
+.video{
+    padding-top: 100px;
 
+}
+.video__wrap{
+    padding: 0px;
+    background:red;
+}
 
 
 
@@ -306,6 +314,12 @@ html {
 
 
 /*@media*/
+
+@media(max-width: 2024px){
+    .video-settings{
+        height: 350px;
+    }
+}
 @media(max-width: 768px){
     .background__opacity{
         height: 1000px;
@@ -318,6 +332,9 @@ html {
     }
     .button_wrap{
         margin-bottom: 100px;
+    }
+    .video-settings{
+        height: 200px;
     }
 }
 
@@ -337,7 +354,9 @@ html {
             min-width: 720px;
         }
     }
-
+    .video-settings{
+        height: 250px;
+    }
 
 }
 @media(max-width: 576px){
